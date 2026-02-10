@@ -50,7 +50,6 @@ router.delete("/all-users-remove", async (req, res) => {
   }
 });
 
-
 // Get all purchases details
 router.get("/all-purchases", async (req, res) => {
   try {
