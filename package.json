@@ -10,7 +10,7 @@
     "remove": "rm -rf node_modules",
     "start": "babel-node server.js",
     "dev": "nodemon --exec npm start",
-    "gcp-build": "node server.js"
+    "gcp-build": "babel-node server.js"
   },
   "keywords": [],
   "author": "",
