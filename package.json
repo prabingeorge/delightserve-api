@@ -9,8 +9,7 @@
     "db": "sequelize db:migrate",
     "remove": "rm -rf node_modules",
     "start": "babel-node server.js",
-    "dev": "nodemon --exec npm start",
-    "gcp-build": "babel-node server.js"
+    "dev": "nodemon --exec npm start"
   },
   "keywords": [],
   "author": "",
